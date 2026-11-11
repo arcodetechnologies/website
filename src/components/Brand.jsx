@@ -6,7 +6,7 @@ export default function Brand({ className = '' }) {
   return (
     <a className={`brand ${className}`.trim()} href="#inicio" aria-label={t('ARCODE Technologies — Inicio')}>
       <span className="brand-mark" aria-hidden="true">
-        <img src="/images/ARCODE_logo_solo.png" alt="" width="1090" height="808" />
+        <img src="/images/arcode-logo.webp" alt="" width="220" height="164" />
       </span>
       <span className="brand-copy">
         <strong>ARCODE</strong>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useT } from '../i18n/LanguageContext.jsx';
+import { useLanguage } from '../i18n/LanguageContext.jsx';
 import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
@@ -67,7 +67,7 @@ function Mockup() {
 }
 
 export default function Projects() {
-  const t = useT();
+  const { t, lang } = useLanguage();
   return (
     <section className="section projects-section" id="proyectos">
       <div className="container">
@@ -92,14 +92,12 @@ export default function Projects() {
               <div className={`project-visual project-visual--${project.kind}`}>
                 <span className="project-tag">{t(project.tag)}</span>
                 {project.url ? (
-                  <iframe
-                    className="project-live-frame"
-                    src={project.url}
-                    title={t('Vista previa de SMD Citas')}
+                  <img
+                    className="project-live-preview"
+                    src={lang === 'en' ? '/images/smd-citas-preview-en.svg' : '/images/smd-citas-preview.svg'}
+                    alt={t('Vista previa del sitio SMD Citas')}
                     loading="lazy"
-                    tabIndex={-1}
-                    aria-hidden="true"
-                    referrerPolicy="strict-origin-when-cross-origin"
+                    decoding="async"
                   />
                 ) : <Mockup />}
               </div>

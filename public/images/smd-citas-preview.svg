@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f8ff"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2455ff"/><stop offset="1" stop-color="#1676ed"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#dfe8fa" stroke-width="1"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#102b5a" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/><rect width="1200" height="700" fill="url(#grid)" opacity=".45"/>
+  <rect x="0" y="0" width="1200" height="82" fill="#fff" fill-opacity=".88"/>
+  <circle cx="62" cy="41" r="25" fill="#fff" stroke="#a9c2ff" stroke-width="2"/>
+  <path d="m62 25 15 29h-8l-7-14-7 14h-8l15-29Z" fill="url(#blue)"/><path d="m62 45 5 9H57l5-9Z" fill="#11bfe7"/>
+  <text x="936" y="49" fill="#71819d" font-family="Arial,sans-serif" font-size="17">Funciones</text>
+  <text x="1042" y="49" fill="#71819d" font-family="Arial,sans-serif" font-size="17">Precios</text>
+  <rect x="1090" y="19" width="100" height="44" rx="13" fill="url(#blue)"/><text x="1106" y="47" fill="#fff" font-family="Arial,sans-serif" font-size="14" font-weight="700">Demo gratis</text>
+  <rect x="62" y="135" width="250" height="34" rx="17" fill="#fff" stroke="#dce5f5"/>
+  <circle cx="80" cy="152" r="5" fill="#14b88a"/><text x="95" y="157" fill="#3156b8" font-family="Arial,sans-serif" font-size="13" font-weight="700">Sistema para barberías en Costa Rica</text>
+  <text x="60" y="254" fill="#10203e" font-family="Georgia,serif" font-size="67" font-weight="700">Más citas.</text>
+  <text x="60" y="326" fill="#10203e" font-family="Georgia,serif" font-size="67" font-weight="700">Más dinero.</text>
+  <text x="60" y="398" fill="#2455ff" font-family="Georgia,serif" font-size="66" font-style="italic" font-weight="700">Sin WhatsApp.</text>
+  <path d="M63 412h403" stroke="#2455ff" stroke-width="3"/>
+  <text x="62" y="455" fill="#6a7d9d" font-family="Arial,sans-serif" font-size="19">Clientes que reservan solos, recordatorios</text>
+  <text x="62" y="484" fill="#6a7d9d" font-family="Arial,sans-serif" font-size="19">automáticos y estadísticas en tiempo real.</text>
+  <rect x="62" y="527" width="225" height="54" rx="14" fill="url(#blue)"/>
+  <text x="88" y="561" fill="#fff" font-family="Arial,sans-serif" font-size="16" font-weight="700">1 mes gratis de prueba</text>
+  <rect x="302" y="527" width="158" height="54" rx="14" fill="#fff" stroke="#d7e1f4"/>
+  <text x="333" y="561" fill="#24395f" font-family="Arial,sans-serif" font-size="16" font-weight="700">Ver funciones</text>
+  <g filter="url(#shadow)">
+    <rect x="500" y="213" width="650" height="372" rx="24" fill="#fff" stroke="#d6e2f5" stroke-width="2"/>
+    <path d="M524 213h602a24 24 0 0 1 24 24v31H500v-31a24 24 0 0 1 24-24Z" fill="#10203e"/>
+    <circle cx="526" cy="238" r="7" fill="#ff625c"/><circle cx="550" cy="238" r="7" fill="#ffbd44"/><circle cx="574" cy="238" r="7" fill="#20c879"/>
+    <rect x="603" y="224" width="390" height="28" rx="7" fill="#263b5d"/><text x="625" y="243" fill="#9eacc1" font-family="Arial,sans-serif" font-size="13">barberking.smdcitas.com</text>
+    <text x="526" y="294" fill="#2455ff" font-family="Arial,sans-serif" font-size="14" font-weight="700">Dashboard</text>
+    <text x="638" y="294" fill="#73829b" font-family="Arial,sans-serif" font-size="14">Citas</text><text x="710" y="294" fill="#73829b" font-family="Arial,sans-serif" font-size="14">Estadísticas</text><text x="824" y="294" fill="#73829b" font-family="Arial,sans-serif" font-size="14">Barberos</text>
+    <path d="M520 309h610" stroke="#e1e8f2"/>
+    <rect x="522" y="325" width="188" height="91" rx="13" fill="#fff" stroke="#dce5f2"/><path d="M522 325h188" stroke="#315cff" stroke-width="4"/>
+    <text x="540" y="353" fill="#71819d" font-family="Arial,sans-serif" font-size="11" font-weight="700">CITAS HOY</text><text x="540" y="389" fill="#12213d" font-family="Arial,sans-serif" font-size="27" font-weight="700">12</text><text x="579" y="389" fill="#07956e" font-family="Arial,sans-serif" font-size="12">+3 vs ayer</text>
+    <rect x="721" y="325" width="188" height="91" rx="13" fill="#fff" stroke="#dce5f2"/><path d="M721 325h188" stroke="#18ad83" stroke-width="4"/>
+    <text x="739" y="353" fill="#71819d" font-family="Arial,sans-serif" font-size="11" font-weight="700">INGRESOS</text><text x="739" y="389" fill="#12213d" font-family="Arial,sans-serif" font-size="27" font-weight="700">¢84K</text><text x="800" y="389" fill="#07956e" font-family="Arial,sans-serif" font-size="12">este mes</text>
+    <rect x="920" y="325" width="208" height="91" rx="13" fill="#fff" stroke="#dce5f2"/><path d="M920 325h208" stroke="#f5a623" stroke-width="4"/>
+    <text x="938" y="353" fill="#71819d" font-family="Arial,sans-serif" font-size="11" font-weight="700">CANCELADAS</text><text x="938" y="389" fill="#12213d" font-family="Arial,sans-serif" font-size="27" font-weight="700">2</text><text x="961" y="389" fill="#d47700" font-family="Arial,sans-serif" font-size="12">¢7K perdido</text>
+    <rect x="522" y="429" width="606" height="57" rx="13" fill="#fff" stroke="#dce5f2"/><path d="M538 443v29" stroke="#315cff" stroke-width="4" stroke-linecap="round"/><text x="554" y="453" fill="#182842" font-family="Arial,sans-serif" font-size="14" font-weight="700">Carlos Méndez</text><text x="554" y="473" fill="#71819d" font-family="Arial,sans-serif" font-size="12">Corte + Fade · Jose</text><text x="1035" y="464" fill="#2455ff" font-family="Arial,sans-serif" font-size="14" font-weight="700">9:00</text>
+    <rect x="522" y="496" width="606" height="57" rx="13" fill="#fff" stroke="#dce5f2"/><path d="M538 510v29" stroke="#18ad83" stroke-width="4" stroke-linecap="round"/><text x="554" y="520" fill="#182842" font-family="Arial,sans-serif" font-size="14" font-weight="700">Andrés Vargas</text><text x="554" y="540" fill="#71819d" font-family="Arial,sans-serif" font-size="12">Barba completa · 112</text><text x="1035" y="531" fill="#2455ff" font-family="Arial,sans-serif" font-size="14" font-weight="700">9:30</text>
+  </g>
+</svg>

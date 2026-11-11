@@ -29,7 +29,7 @@ export const en = {
   'Tecnologías con las que trabajamos': 'Technologies we work with', 'Logo de': 'Logo of',
   'Proyectos destacados': 'Featured projects', 'Soluciones que generan': 'Solutions that create', 'impacto real': 'real impact',
   'SMD Citas': 'SMD Citas', 'Sistema de reservas y gestión para barberías en Costa Rica. Más de 1.000 usuarios activos.': 'Booking and management system for barbershops in Costa Rica. Over 1,000 active users.',
-  'Vista previa de SMD Citas': 'SMD Citas website preview', 'Visitar sitio': 'Visit website',
+  'Vista previa del sitio SMD Citas': 'SMD Citas website preview', 'Visitar sitio': 'Visit website',
   'Las otras vistas son ilustrativas; las sustituiremos por casos reales autorizados.': 'The other previews are illustrative and will be replaced with authorized real projects.',
   'Ver todos los proyectos': 'View all projects', 'Ver proyecto': 'View project', 'Automatización': 'Automation',
   'Auditoría y monitoreo web': 'Web audit and monitoring',
