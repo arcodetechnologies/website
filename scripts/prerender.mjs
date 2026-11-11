@@ -4,7 +4,7 @@ import { renderToPipeableStream } from 'react-dom/server';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { createServer } from 'vite';
 
-const siteUrl = 'https://example.com';
+const siteUrl = 'https://arcodetechnologies.vercel.app';
 const pages = [
   {
     lang: 'es',
@@ -86,7 +86,7 @@ try {
       html = html.replace('ARCODE Technologies: software a medida, SaaS y seguridad', 'ARCODE Technologies: custom software, SaaS and security');
       html = html.replace('Desarrollamos software, plataformas SaaS, automatizaciones y auditorías de seguridad para empresas.', 'We build custom software, SaaS platforms, automation and security audits for businesses.');
       html = html.replace('Escríbenos a', 'Email us at').replace('para conversar sobre tu proyecto.', 'to discuss your project.');
-      html = html.replace('href="https://example.com/" />', `href="${siteUrl}/" />`);
+      html = html.replace('href="https://arcodetechnologies.vercel.app/" />', `href="${siteUrl}/" />`);
     }
 
     const outputPath = page.lang === 'en' ? new URL('../dist/en/index.html', import.meta.url) : new URL('../dist/index.html', import.meta.url);

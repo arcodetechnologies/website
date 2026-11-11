@@ -3,7 +3,7 @@ import { en } from './en.js';
 
 const LanguageContext = createContext({ lang: 'es', setLang: () => {}, t: (s) => s });
 const STORAGE_KEY = 'arcode-lang';
-const SITE_URL = 'https://example.com';
+const SITE_URL = 'https://arcodetechnologies.vercel.app';
 const META = {
   es: {
     title: 'ARCODE Technologies | Software, SaaS y Seguridad',

@@ -44,7 +44,7 @@ El proyecto incluye dos skills para mantener el criterio de diseño en futuras i
 
 ## Antes de publicar
 
-- Reemplazar `https://example.com` en `index.html`, `src/i18n/LanguageContext.jsx`, `scripts/prerender.mjs`, `public/robots.txt` y `public/sitemap.xml` por el dominio definitivo.
+- El dominio de producción está configurado como `https://arcodetechnologies.vercel.app` en canonical, metadatos sociales, datos estructurados, sitemap y robots.
 - Ejecutar `npm run build` y publicar el contenido de `dist/`; incluye las páginas prerenderizadas en español y `/en/`.
 - Verificar el dominio en Google Search Console y enviar `/sitemap.xml`.
 - Sustituir las vistas conceptuales de proyectos por proyectos reales y autorizados.
