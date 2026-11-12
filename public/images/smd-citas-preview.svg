@@ -24,7 +24,7 @@
   <text x="88" y="561" fill="#fff" font-family="Arial,sans-serif" font-size="16" font-weight="700">1 mes gratis de prueba</text>
   <rect x="302" y="527" width="158" height="54" rx="14" fill="#fff" stroke="#d7e1f4"/>
   <text x="333" y="561" fill="#24395f" font-family="Arial,sans-serif" font-size="16" font-weight="700">Ver funciones</text>
-  <g filter="url(#shadow)">
+  <g filter="url(#shadow)" transform="translate(180 0) scale(.84 1)">
     <rect x="500" y="213" width="650" height="372" rx="24" fill="#fff" stroke="#d6e2f5" stroke-width="2"/>
     <path d="M524 213h602a24 24 0 0 1 24 24v31H500v-31a24 24 0 0 1 24-24Z" fill="#10203e"/>
     <circle cx="526" cy="238" r="7" fill="#ff625c"/><circle cx="550" cy="238" r="7" fill="#ffbd44"/><circle cx="574" cy="238" r="7" fill="#20c879"/>
